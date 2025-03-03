@@ -1,0 +1,1317 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='readme' inline='true' name='federated.00xgah801dep2x1b40y6p1i3t25b' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='readme' name='textscan.0ag1al501ruei90zwalmf13vhew3'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/Ling Bramlett/Downloads/readme.txt' dataRefreshTime='' directory='C:/Users/Ling Bramlett/Downloads' filename='C:/Users/LINGBR~1/AppData/Local/Temp/TableauTemp/0g2eq7x0dsd5ln19l27xe0etel8c/readme.txt.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0ag1al501ruei90zwalmf13vhew3' name='readme.txt' table='[readme#txt$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:AI33:no:A1:AI33:0' header='yes' locale='en_US' separator=' '>
+            <column datatype='string' name='Module' ordinal='0' />
+            <column datatype='string' name='18' ordinal='1' />
+            <column datatype='string' name='is' ordinal='2' />
+            <column datatype='string' name='this' ordinal='3' />
+            <column datatype='string' name='and' ordinal='4' />
+            <column datatype='string' name='below' ordinal='5' />
+            <column datatype='string' name='https://citibikenyc.com/system-data' ordinal='6' />
+            <column datatype='string' name='(edited)' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+            <column datatype='string' name='F11' ordinal='10' />
+            <column datatype='string' name='F12' ordinal='11' />
+            <column datatype='string' name='F13' ordinal='12' />
+            <column datatype='string' name='F14' ordinal='13' />
+            <column datatype='string' name='F15' ordinal='14' />
+            <column datatype='string' name='F16' ordinal='15' />
+            <column datatype='string' name='F17' ordinal='16' />
+            <column datatype='string' name='F18' ordinal='17' />
+            <column datatype='string' name='F19' ordinal='18' />
+            <column datatype='string' name='F20' ordinal='19' />
+            <column datatype='string' name='F21' ordinal='20' />
+            <column datatype='string' name='F22' ordinal='21' />
+            <column datatype='string' name='F23' ordinal='22' />
+            <column datatype='string' name='F24' ordinal='23' />
+            <column datatype='string' name='F25' ordinal='24' />
+            <column datatype='string' name='F26' ordinal='25' />
+            <column datatype='string' name='F27' ordinal='26' />
+            <column datatype='string' name='F28' ordinal='27' />
+            <column datatype='string' name='F29' ordinal='28' />
+            <column datatype='string' name='F30' ordinal='29' />
+            <column datatype='string' name='F31' ordinal='30' />
+            <column datatype='string' name='F32' ordinal='31' />
+            <column datatype='string' name='F33' ordinal='32' />
+            <column datatype='string' name='F34' ordinal='33' />
+            <column datatype='string' name='F35' ordinal='34' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AI33:no:A1:AI33:0&quot;</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Module</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Module]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>Module</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[18]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>18</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>is</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[is]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>is</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>this</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[this]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>this</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>and</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[and]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>and</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>below</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[below]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>below</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>https://citibikenyc.com/system-data</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[https://citibikenyc.com/system-data]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>https://citibikenyc.com/system-data</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>(edited)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[(edited)]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>(edited)</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F18</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F18]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F18</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F19</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F19]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F19</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F20</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F20]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F20</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F21</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F21]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F21</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F23</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F23]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F23</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F24]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F25</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F25]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F25</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F26</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F26]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F26</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F27</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F27]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F27</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F28</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F28]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F28</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F29</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F29]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F29</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F30</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F30]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F30</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F31</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F31]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F31</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F32</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F32]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F32</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F33</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F33]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F33</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F34</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F34]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F34</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F35</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F35]</local-name>
+            <parent-name>[readme.txt]</parent-name>
+            <remote-alias>F35</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='(Edited)' datatype='string' name='[(edited)]' role='dimension' type='nominal' />
+      <column caption='readme.txt' datatype='table' name='[__tableau_internal_object_id__].[readme.txt_32F17E255AD24BEB86F8000B902F08CA]' role='measure' type='quantitative' />
+      <column caption='And' datatype='string' name='[and]' role='dimension' type='nominal' />
+      <column caption='Below' datatype='string' name='[below]' role='dimension' type='nominal' />
+      <column caption='Https://Citibikenyc.Com/System-Data' datatype='string' name='[https://citibikenyc.com/system-data]' role='dimension' type='nominal' />
+      <column caption='Is' datatype='string' name='[is]' role='dimension' type='nominal' />
+      <column caption='This' datatype='string' name='[this]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/LINGBR~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0auwsgf0i8c7vo14ia2ir0vgozh9.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/03/2025 03:42:45 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Module</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Module]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Module</remote-alias>
+              <ordinal>0</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>18</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>18</remote-alias>
+              <ordinal>1</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>21</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>is</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[is]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>is</remote-alias>
+              <ordinal>2</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>this</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[this]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>this</remote-alias>
+              <ordinal>3</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>and</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[and]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>and</remote-alias>
+              <ordinal>4</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>below</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[below]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>below</remote-alias>
+              <ordinal>5</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>https://citibikenyc.com/system-data</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[https://citibikenyc.com/system-data]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>https://citibikenyc.com/system-data</remote-alias>
+              <ordinal>6</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>(edited)</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[(edited)]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>(edited)</remote-alias>
+              <ordinal>7</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F9</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F9]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F9</remote-alias>
+              <ordinal>8</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F11</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F11]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F11</remote-alias>
+              <ordinal>10</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>18</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F12</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F12]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F12</remote-alias>
+              <ordinal>11</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F18</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F18]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F18</remote-alias>
+              <ordinal>17</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F19</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F19]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F19</remote-alias>
+              <ordinal>18</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F20</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F20]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F20</remote-alias>
+              <ordinal>19</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F21</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F21]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F21</remote-alias>
+              <ordinal>20</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F22</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F22]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F22</remote-alias>
+              <ordinal>21</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F23</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F23]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F23</remote-alias>
+              <ordinal>22</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F24</remote-alias>
+              <ordinal>23</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F25</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F25]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F25</remote-alias>
+              <ordinal>24</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>10</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F26</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F26]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F26</remote-alias>
+              <ordinal>25</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F27</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F27]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F27</remote-alias>
+              <ordinal>26</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F28</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F28]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F28</remote-alias>
+              <ordinal>27</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F29</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F29]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F29</remote-alias>
+              <ordinal>28</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F30</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F30]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F30</remote-alias>
+              <ordinal>29</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F31</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F31]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F31</remote-alias>
+              <ordinal>30</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F32</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F32]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F32</remote-alias>
+              <ordinal>31</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F33</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F33]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F33</remote-alias>
+              <ordinal>32</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F34</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F34]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F34</remote-alias>
+              <ordinal>33</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F35</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[F35]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F35</remote-alias>
+              <ordinal>34</ordinal>
+              <family>readme.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[readme.txt_32F17E255AD24BEB86F8000B902F08CA]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='readme.txt' id='readme.txt_32F17E255AD24BEB86F8000B902F08CA'>
+            <properties context=''>
+              <relation connection='textscan.0ag1al501ruei90zwalmf13vhew3' name='readme.txt' table='[readme#txt$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:AI33:no:A1:AI33:0' header='yes' locale='en_US' separator=' '>
+                  <column datatype='string' name='Module' ordinal='0' />
+                  <column datatype='string' name='18' ordinal='1' />
+                  <column datatype='string' name='is' ordinal='2' />
+                  <column datatype='string' name='this' ordinal='3' />
+                  <column datatype='string' name='and' ordinal='4' />
+                  <column datatype='string' name='below' ordinal='5' />
+                  <column datatype='string' name='https://citibikenyc.com/system-data' ordinal='6' />
+                  <column datatype='string' name='(edited)' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                  <column datatype='string' name='F11' ordinal='10' />
+                  <column datatype='string' name='F12' ordinal='11' />
+                  <column datatype='string' name='F13' ordinal='12' />
+                  <column datatype='string' name='F14' ordinal='13' />
+                  <column datatype='string' name='F15' ordinal='14' />
+                  <column datatype='string' name='F16' ordinal='15' />
+                  <column datatype='string' name='F17' ordinal='16' />
+                  <column datatype='string' name='F18' ordinal='17' />
+                  <column datatype='string' name='F19' ordinal='18' />
+                  <column datatype='string' name='F20' ordinal='19' />
+                  <column datatype='string' name='F21' ordinal='20' />
+                  <column datatype='string' name='F22' ordinal='21' />
+                  <column datatype='string' name='F23' ordinal='22' />
+                  <column datatype='string' name='F24' ordinal='23' />
+                  <column datatype='string' name='F25' ordinal='24' />
+                  <column datatype='string' name='F26' ordinal='25' />
+                  <column datatype='string' name='F27' ordinal='26' />
+                  <column datatype='string' name='F28' ordinal='27' />
+                  <column datatype='string' name='F29' ordinal='28' />
+                  <column datatype='string' name='F30' ordinal='29' />
+                  <column datatype='string' name='F31' ordinal='30' />
+                  <column datatype='string' name='F32' ordinal='31' />
+                  <column datatype='string' name='F33' ordinal='32' />
+                  <column datatype='string' name='F34' ordinal='33' />
+                  <column datatype='string' name='F35' ordinal='34' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AF9D0E36-C4D7-4EBE-AA8E-5C406B355EF6}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E33F6356-E678-4096-B346-1D52BC67B523}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
